@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil!">
   <title>Infinite</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -12,13 +11,13 @@
 <body>
   <header>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </header>
-  <section>
+  <section id="home">
     <img src="bg.jpg" id="bg">
     <img src="moon.png" id="moon">
     <img src="mountain.png" id="mountain">
@@ -26,7 +25,7 @@
     <h2 data-anime="top" id="text">Infinite</h2>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="about2">
       <h2 class="title">Our Latest Work</h2>
       <p class="text2">The time passes quickly so be sure to enjoy every second, 
@@ -58,7 +57,7 @@
     </div>
   </section>
 
-  <section class="services">
+  <section class="services" id="services">
      <h2 class="title2">Our Services</h2>
      <p class="text3">We’ve collected the best time quotes from t
       he greatest minds of the world – use them as an inspiration or as 
@@ -78,6 +77,49 @@
       <img src="product4.jpg" class="img6">
       <h2 class="caracteres3">Construction</h2>
     </div>  
+  </section>
+
+  <section class="contact">
+    <div class="heading">
+      <h2>Contact Us</h2>
+      <p>it's our pleasure to help you anytime</p>
+    </div>
+    <div class="content" id="contact">
+      <div class="contactInfo">
+        <h3>Contact Info</h3>
+        <div class="contactInfoBx">
+          <div class="box">
+            <div class="icon"></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>578 rua do infinito,<br>estrada, Recife</p>
+            </div> 
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>578-254-6258</p>
+            </div> 
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>infinitetime@gmail.com</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="formBx">
+      <form>
+        <input type="text" name="" placeholder="Full Name">
+        <input type="email" name="" placeholder="Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button class="botao" type="submit">Send</button>
+      </form>
+    </div>
   </section>
 </body>
 <script src="index.js"></script>
